@@ -24,8 +24,9 @@ Ce projet a pour but de :
 ```bash
 
 # 1. Clone le dépôt
-git clone https://github.com/ton-pseudo/master-hub.git
-cd master-hub
+
+git clone https://github.com/gery-guedegbe/masters-hub-landing-page.git
+cd masters-hub-landing-page
 
 # 2. Installe les dépendances
 npm install
