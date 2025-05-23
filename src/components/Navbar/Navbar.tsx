@@ -46,7 +46,7 @@ function Navbar() {
             className="h-auto w-[130px] cursor-pointer object-cover lg:w-[187px]"
           />
 
-          <ul className="hidden items-center justify-center gap-10 lg:flex">
+          <ul className="mx-8 hidden items-center justify-center gap-10 lg:flex">
             {linkItems.map((link) => (
               <li
                 key={link.id}
