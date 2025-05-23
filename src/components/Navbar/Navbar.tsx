@@ -34,7 +34,7 @@ function Navbar() {
   return (
     <header className="fixed top-4 z-50 w-full px-3 py-1 lg:relative lg:top-0 lg:px-12 lg:py-4">
       <nav
-        className={`flex w-full flex-col items-center justify-between border-[1px] border-white bg-[#846EEE]/40 px-3 py-2 shadow backdrop-blur-xl lg:flex-row lg:rounded-none lg:border-0 lg:bg-transparent lg:px-0 lg:py-0 lg:shadow-none lg:backdrop-blur-none ${
+        className={`flex w-full flex-col items-center justify-between border-[1px] border-white bg-[#846EEE]/40 px-3 py-2.5 shadow backdrop-blur-xl lg:flex-row lg:rounded-none lg:border-0 lg:bg-transparent lg:px-0 lg:py-0 lg:shadow-none lg:backdrop-blur-none ${
           toggled ? "rounded-2xl" : "rounded-full"
         } `}
       >

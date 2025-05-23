@@ -93,7 +93,7 @@ function CustomerReviewSection() {
           <Image
             src={customer_review_image}
             alt="Customer Review Image"
-            className="h-full w-full rounded-2xl object-cover"
+            className="mx-auto h-full w-[90vw] max-w-[500px] rounded-2xl object-cover lg:w-full"
           />
         </div>
       </div>

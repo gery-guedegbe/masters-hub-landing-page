@@ -21,7 +21,7 @@ function Footer() {
       }}
       className="w-full text-start"
     >
-      <div className="mx-auto grid grid-cols-2 items-start justify-between gap-6 px-4 py-6 lg:auto-cols-auto lg:grid-flow-col lg:gap-8 lg:px-16 lg:py-8">
+      <div className="mx-auto grid grid-cols-2 items-start justify-between gap-6 px-4 py-8 pt-10 lg:auto-cols-auto lg:grid-flow-col lg:gap-8 lg:px-16 lg:py-10 lg:pt-8">
         <div className="-mt-3">
           <Image
             src={footer_logo}
