@@ -32,7 +32,7 @@ function CustomerReviewSection() {
   }, [emblaApi]);
 
   return (
-    <section className="w-full px-4 py-6 text-start lg:px-16 lg:py-16">
+    <section className="w-full px-4 py-6 text-start lg:px-16 lg:py-8">
       <h2 className="mb-6 text-[28px] leading-tight font-medium text-neutral-900 md:text-[36px] lg:mb-8 lg:text-[56px]">
         What our clients say
       </h2>

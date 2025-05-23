@@ -445,3 +445,44 @@ export const frequentlyItems = [
       "You can track your applications by logging into your account and accessing the 'My Applications' section in your dashboard. Here, you’ll see the status of each job you've applied to, such as 'Submitted', 'Viewed', 'Interview', or 'Rejected'.",
   },
 ];
+
+export const footerData = {
+  companyInfo: {
+    name: "Masters Hub",
+    address:
+      "3787 Jerry Dove Drive, Florence, South Carolina, 29501, United States",
+    phone: "843-496-7759",
+    fax: "02-222264303",
+    email: "info@mastershub.com",
+  },
+  sections: [
+    {
+      title: "Quick Links",
+      links: [
+        { label: "Pricing", href: "#pricing" },
+        { label: "Jobs", href: "#jobs" },
+        { label: "Employer", href: "#employer" },
+        { label: "Careers", href: "#careers" },
+        { label: "Contact Us", href: "#contact" },
+      ],
+    },
+    {
+      title: "Others",
+      links: [
+        { label: "How it works", href: "#how-it-works" },
+        { label: "Terms and condition", href: "#terms" },
+        { label: "Privacy Policy", href: "#privacy" },
+        { label: "About Us", href: "#about" },
+      ],
+    },
+    {
+      title: "About us",
+      links: [
+        { label: "Company milestone", href: "#milestone" },
+        { label: "Web mail", href: "#webmail" },
+        { label: "Board of Directors", href: "#board" },
+        { label: "Senior Management", href: "#management" },
+      ],
+    },
+  ],
+};

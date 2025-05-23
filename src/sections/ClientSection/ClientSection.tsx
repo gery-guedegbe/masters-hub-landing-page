@@ -20,7 +20,10 @@ const groupedLogos = groupLogosDescending(logoItems);
 
 function ClientSection() {
   return (
-    <section className="bg-white-2 mt-4 h-full w-full px-4 py-6 text-center lg:mt-10 lg:px-16 lg:py-16">
+    <section
+      id="partneredJob"
+      className="bg-white-2 mt-4 h-full w-full px-4 py-6 text-center lg:mt-10 lg:px-16 lg:py-16"
+    >
       <div className="flex flex-col items-center justify-center gap-2.5 lg:gap-4">
         <h2 className="max-w-[657px] text-[36px] leading-[120%] font-medium text-neutral-900 lg:text-[56px]">
           We are happy to work with incredible clients

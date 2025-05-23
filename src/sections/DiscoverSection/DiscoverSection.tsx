@@ -33,7 +33,10 @@ function DiscoverSection() {
   const filteredMasters = mastersData[activeTab];
 
   return (
-    <section className="h-full w-full px-4 py-4 text-center lg:px-16 lg:py-8">
+    <section
+      id="skillSet"
+      className="h-full w-full px-4 py-4 text-center lg:px-16 lg:py-8"
+    >
       <div className="flex flex-col items-center justify-center gap-2.5 lg:gap-4">
         <h2 className="max-w-[482px] text-[36px] leading-[120%] font-medium text-neutral-900 lg:text-[56px]">
           Discover the Emerging Masters
